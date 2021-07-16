@@ -123,3 +123,67 @@ body {
 .photo-detail p {
   font-size: 20px;
 }
+
+/*------ Highlights area------ */
+
+.highlights {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 100px;
+}
+.highlights-left h1 {
+  padding-top: 30px;
+  font: 700 48px/60px "Poppins", sans-serif;
+}
+.highlights-right img {
+  padding-left: 80px;
+  width: 65%;
+}
+
+/* -------Youtube Area -------*/
+.YouTube-Video {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 100px;
+}
+.YouTube-Video h2 {
+  padding-top: 30px;
+  font: 700 48px "Poppins", sans-serif;
+}
+.Contactus-area {
+  margin-top: 100px;
+  background-color: rgba(230, 190, 14, 0.76);
+  text-align: center;
+  padding: 50px;
+  border-radius: 50px 50px;
+}
+.Contactus-area input {
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+/* Footer Styles Starts */
+
+.footer {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+  width: 484px;
+  height: 110px;
+}
+
+.social-icon i {
+  color: #969bab;
+  border-radius: 50%;
+  margin-left: 14px;
+  background-color: #c9c8c754;
+  padding: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
