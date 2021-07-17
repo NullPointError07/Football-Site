@@ -1,44 +1,8 @@
-@media only screen and (max-width: 688px) {
-  .container,
-  .photo-album,
-  .highlights,
-  .YouTube-Video,
-  .Contactus-area,
-  .footer {
-    width: 100%;
-  }
-  header {
-    --txt-size: 5rem;
-    display: none;
-  }
-  .banner {
-    margin-top: 0;
-  }
-  .main-banner {
-    height: auto;
-    grid-template-columns: 1fr;
-  }
-  .banner-text h1 {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 50px;
-    color: #ffffff;
-    padding-top: 100px;
-  }
-  .banner-image {
-    text-align: center;
-  }
-  .banner-image img {
-    width: 60%;
-    margin-top: 50px;
-  }
-  .photo-frame,
-  .highlights container,
-  .YouTube-Video,
-  .Contactus-area {
-    grid-template-columns: 1fr;
-  }
-  .photo-detail {
-    margin-top: 30px;
+@media only screen and (max-width: 690px) {
+  .photo-album {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 15px;
+    margin-left: 2px;
   }
 }
