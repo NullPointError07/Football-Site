@@ -1,8 +1,56 @@
 @media only screen and (max-width: 690px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+  .banner {
+    margin-top: 0;
+  }
+  .main-banner {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+  .banner-text h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #ffffff;
+    padding-top: 100px;
+  }
+  .banner-image {
+    text-align: center;
+  }
+  .banner-image img {
+    width: 60%;
+    margin-top: 50px;
+  }
   .photo-album {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-top: 15px;
     margin-left: 2px;
+  }
+  .highlights-area {
+    padding: 60px 0px 50px;
+  }
+  .highlights-left h1 {
+    font: 700 30px/40px "Poppins", sans-serif;
+    margin: 10px 0;
+  }
+  .highlights-left {
+    padding-right: 0;
+  }
+  .footer-menu i {
+    font-size: 20px;
+  }
+  .footer-image img {
+    height: 96px;
+    width: 275px;
+    margin-left: 1px;
+  }
+  .footer-menu p {
+    margin-left: 25px;
   }
 }
