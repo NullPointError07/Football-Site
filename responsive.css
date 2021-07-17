@@ -32,6 +32,10 @@
     margin-top: 15px;
     margin-left: 2px;
   }
+  .YouTube-Video {
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+  }
   .highlights-area {
     padding: 60px 0px 50px;
   }
